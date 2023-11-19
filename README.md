@@ -6,31 +6,36 @@ This Flutter application demonstrates screen navigation using the `Navigator` an
 
 ### `lib/main.dart`
 
-- **MyApp**: The main entry point for the app. Configures the `MaterialApp` and sets the `HomeScreen` as the initial screen.
+This file contains the main structure of the app, including the main `MyApp` widget, the different screen widgets (`HomeScreen`, `SearchScreen`, `AddScreen`, `ReelsScreen`, `AccountScreen`), and a custom widget (`CustomWidget`). Below is an overview of each:
 
-### `lib/screens/home_screen.dart`
+#### `MyApp`
 
-- **HomeScreen**: The default landing screen with a basic layout, including a Flutter logo, app name, and buttons to navigate to other screens.
+- The main entry point for the app.
+- Configures the `MaterialApp` and sets the `HomeScreen` as the initial screen.
 
-### `lib/screens/search_screen.dart`
+#### `HomeScreen`
 
-- **SearchScreen**: A screen with an app bar titled 'Search Content,' featuring a search input field and a button to trigger a search operation.
+- The default landing screen with a basic layout, including a Flutter logo, app name, and buttons to navigate to other screens.
 
-### `lib/screens/add_screen.dart`
+#### `SearchScreen`
 
-- **AddScreen**: A placeholder screen with an app bar titled 'Add Content.'
+- A screen with an app bar titled 'Search Content,' featuring a search input field and a button to trigger a search operation.
 
-### `lib/screens/reels_screen.dart`
+#### `AddScreen`
 
-- **ReelsScreen**: A screen with an app bar titled 'Watch Content,' demonstrating a more complex layout with a grid of colored containers.
+- A placeholder screen with an app bar titled 'Add Content.'
 
-### `lib/screens/account_screen.dart`
+#### `ReelsScreen`
 
-- **AccountScreen**: A screen with an app bar titled 'Account Content,' displaying a user's profile picture, name, and additional information.
+- A screen with an app bar titled 'Watch Content,' demonstrating a more complex layout with a grid of colored containers.
 
-### `lib/screens/widgets.dart`
+#### `AccountScreen`
 
-- **CustomWidget**: A reusable custom widget with a blue background, used for demonstration purposes.
+- A screen with an app bar titled 'Account Content,' displaying a user's profile picture, name, and additional information.
+
+#### `CustomWidget`
+
+- A reusable custom widget with a blue background, used for demonstration purposes.
 
 ## Getting Started
 
